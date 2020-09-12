@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Border-radius Previewer</title>
+        <!--    Bootstrap CSS    -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+              integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--   Custom CSS     -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-5">
+                <form>
+                    <div class="form-group">
+                        <label for="top-left">Top-left</label>
+                        <input type="range" min="0" max="50" value="0" step="1" class="form-control-range"
+                               id="top-left">
+                        <p id="top-left-value"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="bottom-left">Bottom-left</label>
+                        <input type="range" min="0" max="50" value="0" step="1" class="form-control-range"
+                               id="bottom-left">
+                        <p id="bottom-left-value"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="top-right">Top-right</label>
+                        <input type="range" min="0" max="50" value="0" step="1" class="form-control-range"
+                               id="top-right">
+                        <p id="top-right-value"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="bottom-right">Bottom-right</label>
+                        <input type="range" min="0" max="50" value="0" step="1" class="form-control-range"
+                               id="bottom-right">
+                        <p id="bottom-right-value"></p>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <div class="box mt-5"></div>
+            </div>
+        </div>
+    </div>
+            <!--    Bootstrap Js    -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!--    Custom Js    -->
+        <script src="app.js"></script>
+    </body>
+</html>
