@@ -24,4 +24,3 @@ bottomRight.oninput = function () {
     box.style.borderBottomRightRadius = `${this.value}%`
     document.getElementById('bottom-right-value').textContent = `${this.value}%`
 }
-
